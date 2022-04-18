@@ -42,13 +42,18 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
+            InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/sahid_malik'),
+            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
+            ],[
+            InlineKeyboardButton('⚡️Join this channel to Use 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl')
+            ],[
+            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -94,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik'),
+            InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('⚡️Join this channel to Use 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl')
