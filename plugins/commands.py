@@ -45,13 +45,12 @@ async def start(client, message):
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl'),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
@@ -96,13 +95,12 @@ async def start(client, message):
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl'),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
