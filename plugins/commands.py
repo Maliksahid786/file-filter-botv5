@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('⚡️Join this channel to Use me 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl')
+            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
@@ -102,7 +102,7 @@ async def start(client, message):
             InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('⚡️Join this channel to Use me 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl')
+            InlineKeyboardButton('🧩 Join My group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
