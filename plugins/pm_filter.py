@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+# Kanged From @sahid malik
 import asyncio
 import re
 import ast
@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('🧩 Join group 🌷', url='https://t.me/+gXuMKXOWm1UyOTdl'),
+            InlineKeyboardButton('Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
