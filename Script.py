@@ -11,7 +11,7 @@ class script(object):
 ✯ updates channel: <a href=https://t.me/m_house786>CLICK HERE</a>
 ✯ Subscribe you tube channel: <a href=<a href=https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A>CLICK HERE</a></b>""" 
     SOURCE_TXT = """<b>NOTE:</b>
-- <b>Eva Maria is a open source project. 
+- <b>Movies house is a open source project. 
 - Source 👉 <a href=https://t.me/malik_bots>CLICK HERE</a></b>
 
 <b>DEVS:</b>
