@@ -85,7 +85,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" ♻️ Try Again ♻️", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**🙏 Please Join My Updates Channel to use this Bot...           😳 Hay bro hamare niche diye gaye updates channel ko join kare jab tap aap hamare update channel ko join nahi karenege tab tak bot Movie nahi dega is updates channel ko join kare 👇👇👇 **",
+            text="**⚠️ Please Join My Updates Channel to use this Bot...   ━━━━━━━━━━━━━━━━━                     हमारे निचे दिए गये update चैनल को join करे जब तक आप हमारे update चैनल को join नहीं करेंगे तब तक bot आपको मूवी नहीं देगा. 👇👇👇 **",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
