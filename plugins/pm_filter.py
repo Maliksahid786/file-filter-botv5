@@ -142,7 +142,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             k = await query.message.edit('♻️ This Movie Not Found my Database ♾♾♾♾♾♾♾♾♾♾♾♾♾♾ ♻️ Request to admin 👉 @m_admins')
-            await asyncio.sleep(23)
+            await asyncio.sleep(15)
             await k.delete()
 
 
