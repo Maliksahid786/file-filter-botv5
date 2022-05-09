@@ -79,6 +79,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
+            "value": "Telegram_files",
             "required": false
         }
     },
