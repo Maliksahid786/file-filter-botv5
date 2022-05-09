@@ -12,7 +12,7 @@ class script(object):
 ✯ Subscribe you tube channel: <a href=<a href=https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A>CLICK HERE</a></b>""" 
     SOURCE_TXT = """<b>NOTE:</b>
 - <b>Movies house is a open source project. 
-- Source 👉 <a href=https://t.me/malik_bots>CLICK HERE</a></b>
+- Source 👉 <a href=https://t.me/malik_bots/6>CLICK HERE</a></b>
 
 <b>DEVS:</b>
 - <a href=https://t.me/sahid_malik>Sahid malik</a>"""
@@ -110,11 +110,8 @@ Name - {}
     START_TXT = """<b>Hay {},
 
 I'm ⚡️ Powerful Auto-Filter Bot...
- 
 😎 You Can Use Me As A Auto-filter in Your Group ....
-
 Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-
 ⚠️ More Help Check Help Button Below
 
 ©️Mantained Bʏ  @sahid_malik</b>"""
