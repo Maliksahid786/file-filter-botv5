@@ -12,7 +12,7 @@ class script(object):
 ✯ Subscribe you tube channel: <a href=<a href=https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A>CLICK HERE</a></b>""" 
     SOURCE_TXT = """<b>NOTE:</b>
 - <b>Movies house is a open source project. 
-- Source 👉 <a href=https://t.me/malik_bots/6>CLICK HERE</a></b>
+- Source 👉 <a href=https://t.me/malik_bots/7>CLICK HERE</a></b>
 
 <b>DEVS:</b>
 - <a href=https://t.me/sahid_malik>Sahid malik</a>"""
