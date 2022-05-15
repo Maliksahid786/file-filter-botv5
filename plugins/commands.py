@@ -23,6 +23,9 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
+                InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],
+            [
                 InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/m_house786')
             ],
             [
