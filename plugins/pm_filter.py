@@ -1,4 +1,4 @@
-# Kanged From @sahid malik
+# Kanged From @dark_webos
 import asyncio
 import re
 import ast
