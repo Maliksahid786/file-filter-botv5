@@ -10,12 +10,12 @@ class script(object):
 ◇ Build Status : v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
 ◇ Our Telegram Group : <a href=https://t.me/Cinema_World_Sir_Lanka_Group>CLICK HERE</a>
 ◇ Our Telegram Channel : <a href=<a href=https://t.me/Cinema_World_Sri_Lanka>CLICK HERE</a></b>""" 
-    SOURCE_TXT = """<b>NOTE:</b>
-- <b>Movies house is a open source project. 
-- Source 👉 <a href=https://t.me/malik_bots/7>CLICK HERE</a></b>
+    SOURCE_TXT = """<b>⚠️️ NOTE:</b>
+- <b>Cinema World is a Open Source Project. 
+- Source : <a href=https://t.me/Cinema_World_Sri_Lanka>CLICK HERE</a></b>
 
 <b>DEVS:</b>
-- <a href=https://t.me/sahid_malik>Sahid malik</a>"""
+- <a href=https://t.me/Cinema_World_Owner>Lasith Chamika</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the Feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
