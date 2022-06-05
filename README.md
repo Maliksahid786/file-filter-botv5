@@ -98,4 +98,4 @@ python3 bot.py
 ```
 
 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Lasith Chamika](https://t.me/Cinema_World_Owner)                                                                                                                                                                                 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [movies house](https://t.me/Cinema_World_Sri_Lanka)
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [Cinema World](https://t.me/Cinema_World_Sri_Lanka)
