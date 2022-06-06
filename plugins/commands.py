@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('➕ Add me to a Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
                 InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/m_house786')
@@ -45,9 +45,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add me to a Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌷 Channel 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('🔥 Channel 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
             InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('🔰 Updates 🔰', url='https://t.me/m_house786')
             ],[
@@ -95,7 +95,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add me to a Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔥 Channel 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
             InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/Cinema_World_Owner'),
@@ -259,7 +259,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+gXuMKXOWm1UyOTdl")
+                    InlineKeyboardButton('🌺 Join Group 🌺', url="https://t.me/Cinema_World_Sir_Lanka_Group")
                 ]
             ]
         )
