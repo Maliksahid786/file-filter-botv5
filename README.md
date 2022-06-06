@@ -41,7 +41,7 @@
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
 
-## Deploy
+## Deploys
 You can deploy this bot anywhere.
 
 <i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtu.be/v7Vbu3u_VrE)**</i>
