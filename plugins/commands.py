@@ -47,15 +47,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add me to a Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 Channel 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/sahid_malik'),
-            InlineKeyboardButton('🔰 Updates 🔰', url='https://t.me/m_house786')
+            InlineKeyboardButton('🔥 Channel 🔥', url='https://t.me/Cinema_World_Sri_Lanka'),
+            InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/Cinema_World_Owner'),
+            InlineKeyboardButton('🔰 Updates 🔰', url='https://t.me/Cinema_World_Sri_Lanka')
             ],[
             InlineKeyboardButton('☘️ Help ☘️', callback_data='help'),
-            InlineKeyboardButton('🌼 Join Our Group 🌼', url='https://t.me/+gXuMKXOWm1UyOTdl'),
+            InlineKeyboardButton('🌼 Join Our Group 🌼', url='https://t.me/Cinema_World_Sir_Lanka_Group'),
             InlineKeyboardButton('🔎 About 🔍', callback_data='about')
             ],[
-            InlineKeyboardButton('🌺 Join Our Official Telegram Channel 🌺', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+            InlineKeyboardButton('🌺 Join Our Official Telegram Channel 🌺', url='https://t.me/Cinema_World_Sri_Lanka')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
