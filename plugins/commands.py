@@ -47,15 +47,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('☎️CONTACT ME', url='https://t.me/sahid_malik'),
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
+            InlineKeyboardButton('🌷 Channel 🌷', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/sahid_malik'),
+            InlineKeyboardButton('🔰 Updates 🔰', url='https://t.me/m_house786')
             ],[
-            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
+            InlineKeyboardButton('☘️ Help ☘️', callback_data='help'),
+            InlineKeyboardButton('🌼 Join Our Group 🌼', url='https://t.me/+gXuMKXOWm1UyOTdl'),
+            InlineKeyboardButton('🔎 About 🔍', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+            InlineKeyboardButton('🌺 Join Our Official Telegram Channel 🌺', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -83,12 +83,12 @@ async def start(client, message):
             try:
             	kk, file_id = message.command[1].split("_", 1)
             	pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            	btn.append([InlineKeyboardButton(" ♻️ Try Again ♻️", callback_data=f"{pre}#{file_id}")])
+            	btn.append([InlineKeyboardButton(" 🔄 Try Again 🔄", callback_data=f"{pre}#{file_id}")])
             except IndexError:
-                btn.append([InlineKeyboardButton(" ♻️ Try Again ♻️", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 Try Again 🔄", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**⚠️ Please Join My Updates Channel to use this Bot...   ━━━━━━━━━━━━━━━━━                     हमारे निचे दिए गये update चैनल को join करे जब तक आप हमारे update चैनल को join नहीं करेंगे तब तक bot आपको मूवी नहीं देगा. 👇👇👇 **",
+            text="**⚠️ Please Join My Update Channel to use this Bot...   ━━━━━━━━━━━━━━━━━                     हमारे निचे दिए गये update चैनल को join करे जब तक आप हमारे update चैनल को join नहीं करेंगे तब तक bot आपको मूवी नहीं देगा. 👇👇👇 **",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -97,15 +97,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('☎️ CONTACT ME', url='https://t.me/sahid_malik'),
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
+            InlineKeyboardButton('🔥 Channel 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('☎️ Contact Me ☎️', url='https://t.me/Cinema_World_Owner'),
+            InlineKeyboardButton('🔰 Updates 🔰', url='https://t.me/Cinema_World_Sri_Lanka')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('☘️ Help ☘️', callback_data='help'),
+            InlineKeyboardButton('🌼 Join Our Group 🌼', url='https://t.me/Cinema_World_Sir_Lanka_Group'),
+            InlineKeyboardButton('🔎 About 🔍', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+            InlineKeyboardButton('🌺 Join Our Official Telegram Channel 🌺', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -309,7 +309,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("Please Wait Processing...⏳", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
