@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/00bdb8145479df9436ae1.jpg" alt="Ajax Techz">
+  <img src="https://telegra.ph/file/93f28c746d32b26263a9b.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>file-filter-bot</b>
@@ -41,7 +41,7 @@
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
 
-## Deploy
+## Deploys
 You can deploy this bot anywhere.
 
 <i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtu.be/v7Vbu3u_VrE)**</i>
@@ -51,7 +51,7 @@ You can deploy this bot anywhere.
 <p>
 <br>
 
-<a href="https://heroku.com/deploy?template=https://github.com/Maliksahid786/file-filter-botv5">
+<a href="https://heroku.com/deploy?template=https://github.com/LasithChamik/file-filter-botv5">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -97,5 +97,5 @@ python3 bot.py
 • /broadcast - to broadcast a message to Ajax users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Sahid malik](https://t.me/sahid_malik)                                                                                                                                                                                 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [movies house](https://t.me/m_house786)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Lasith Chamika](https://t.me/Cinema_World_Owner)                                                                                                                                                                                 
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [Cinema World](https://t.me/Cinema_World_Sri_Lanka)

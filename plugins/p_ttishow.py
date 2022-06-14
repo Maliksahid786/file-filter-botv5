@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it Contact support..</b>',
+                text='<b>CHAT NOT ALLOWED ⚠️️\n\nMy admins has restricted me from working here ! If you want to know more about it Contact support..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -37,14 +37,14 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('💎 Updates 💎', url='https://t.me/m_house786')
+            InlineKeyboardButton('☘ Help ☘', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('⚙ Problems ⚙', url='https://t.me/Cinema_World_Sir_Lanka_Group')
             ],[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')
+            InlineKeyboardButton('🌺 Main Channel 🌺', url='https://t.me/Cinema_World_Sri_Lanka')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me Contact Owner >> @sahid_malik.</b>",
+            text=f"<b>Thank you for Adding me in {message.chat.title} 🌺\n\nIf you have any Questions & Doubts about using me Contact Owner : @Cinema_World_Owner</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -74,7 +74,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b>',
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you add me again contact my support group.</b>',
             reply_markup=reply_markup,
         )
 
