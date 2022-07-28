@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://telegra.ph/file/00bdb8145479df9436ae1.jpg" alt="Ajax Techz">
+  <img src="https://telegra.ph/file/a33c75060249c9e587147.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
   <b>file-filter-bot</b>
 </h1>
-<a href="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A">
+<a href="https://youtube.com/channel/UC5NGR7M4y5c8xm_uFufClNA">
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-red?logo=youtube" width="150">
 
 [![Stars](https://img.shields.io/github/stars/malik7983/file-filter-bot?style=flat-square&color=orange)](https://github.com/malik7983/file-filter-bot/stargazers)
@@ -44,7 +44,7 @@
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtu.be/v7Vbu3u_VrE)**</i>
+<i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtube.com/shorts/WhikPGB0cY0?feature=share)**</i>
 
 
 <details><summary>Deploy To Heroku</summary>
@@ -97,5 +97,5 @@ python3 bot.py
 • /broadcast - to broadcast a message to Ajax users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Sahid malik](https://t.me/sahid_malik)                                                                                                                                                                                 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [movies house](https://t.me/m_house786)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [AVI MUWAL](https://t.me/lovelyavimuwal)                                                                                                                                                                                 
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [GOODNIGHT MOVIES](https://t.me/goodnightmovies)
