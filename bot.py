@@ -1,5 +1,7 @@
 import logging
 import logging.config
+from aiohttp import web
+from plugins import web_server
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
@@ -38,6 +40,10 @@ class Bot(Client):
         temp.U_NAME = me.username
         temp.B_NAME = me.first_name
         self.username = '@' + me.username
+        app = web.AppRunner(await web_server())
+        await app.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, 8080).start()
         logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
         logging.info(LOG_STR)
 
